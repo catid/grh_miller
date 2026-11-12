@@ -1,0 +1,52 @@
+# Source: /home/catid/miller/experiments/miller_variant_benchmark/benchmarks/analysis_targeted_clean/group_summary.csv
+# Raw run: benchmarks/raw_targeted_clean.csv; UTC 2026-11-11; corpus constructed_prime; timeout 0.5 s
+# Protocol: CPU 5, 3 repeats (2 at large inputs), Python 3.13.13, gmpy2 2.3.2 / GMP 6.3.0
+algorithm,status,bits,median_seconds,timeout_seconds,observed,repetitions
+aks_textbook,unconditional exact,8,0.014168674009852111,0.5,completed,3
+aks_textbook,unconditional exact,10,0.05194674298400059,0.5,completed,3
+aks_textbook,unconditional exact,12,0.11911780500668101,0.5,completed,3
+aks_textbook,unconditional exact,16,0.47013746699667536,0.5,completed,3
+aks_textbook,unconditional exact,20,,0.5,timeout,1
+aks_textbook,unconditional exact,24,,0.5,timeout,1
+aks_textbook,unconditional exact,28,,0.5,timeout,1
+aks_textbook,unconditional exact,32,,0.5,timeout,1
+aks_textbook,unconditional exact,64,,0.5,timeout,1
+aks_textbook,unconditional exact,128,,0.5,timeout,1
+aks_textbook,unconditional exact,256,,0.5,timeout,1
+aks_textbook,unconditional exact,512,,0.5,timeout,1
+aks_textbook,unconditional exact,1024,,0.5,timeout,1
+aks_textbook,unconditional exact,2048,,0.5,timeout,1
+aks_textbook,unconditional exact,4096,,0.5,timeout,1
+aks_textbook,unconditional exact,8192,,0.5,timeout,1
+miller_grh_reference,conditional (ERH),8,0.00002206300268881023,0.5,completed,3
+miller_grh_reference,conditional (ERH),10,0.00003934002597816288,0.5,completed,3
+miller_grh_reference,conditional (ERH),12,0.00004663100116886198,0.5,completed,3
+miller_grh_reference,conditional (ERH),16,0.00010892399586737156,0.5,completed,3
+miller_grh_reference,conditional (ERH),20,0.00020482999389059842,0.5,completed,3
+miller_grh_reference,conditional (ERH),24,0.00026695302221924067,0.5,completed,3
+miller_grh_reference,conditional (ERH),28,0.0003684670082293451,0.5,completed,3
+miller_grh_reference,conditional (ERH),32,0.0004086479893885553,0.5,completed,3
+miller_grh_reference,conditional (ERH),64,0.002118320990120992,0.5,completed,3
+miller_grh_reference,conditional (ERH),128,0.03450079497997649,0.5,completed,3
+miller_grh_reference,conditional (ERH),256,,0.5,timeout,1
+miller_grh_reference,conditional (ERH),512,,0.5,timeout,1
+miller_grh_reference,conditional (ERH),1024,,0.5,timeout,1
+miller_grh_reference,conditional (ERH),2048,,0.5,timeout,1
+miller_grh_reference,conditional (ERH),4096,,0.5,timeout,1
+miller_grh_reference,conditional (ERH),8192,,0.5,timeout,1
+gmpy2_probable_prime,probabilistic filter,8,0.0000002200249582529068,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,10,0.00000018000719137489796,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,12,0.00000020998413674533367,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,16,0.00000038099824450910097,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,20,0.0000007610069587826729,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,24,0.0000021439918782562017,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,28,0.0000025439949240535498,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,32,0.000001701992005109787,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,64,0.000008222006727010012,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,128,0.000016734993550926446,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,256,0.0000507869990542531,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,512,0.00022829498630017042,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,1024,0.0010447189852129668,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,2048,0.0069393879966810346,0.5,completed,3
+gmpy2_probable_prime,probabilistic filter,4096,0.04621506901457906,0.5,completed,2
+gmpy2_probable_prime,probabilistic filter,8192,0.2646499629918253,0.5,completed,2

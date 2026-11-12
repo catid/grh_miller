@@ -1,0 +1,24 @@
+{
+  "miller_grh_reference": {
+    "formula": "ceil(2 * ln(n)^2)",
+    "log_convention": "natural logarithm",
+    "source": "Bach 1990, Theorem 2 (ERH), consequence p. 373",
+    "proof_status": "conditional_ERH",
+    "runnable": true
+  },
+  "miller_qrh_official": {
+    "formula": null,
+    "log_convention": null,
+    "source": "OpenAI QRH September 30 2026 Corollary 1.2; October 5 2026 introduction",
+    "proof_status": "conditional_QRH_existence_only",
+    "runnable": false,
+    "reason": "QRH gives C*(log p)^A for prime quadratic nonresidue with example A=32 but unspecified C; it does not state a numeric strong-witness bound for arbitrary composites."
+  },
+  "miller_qrh_parametric": {
+    "formula": "ceil(C * log(n)^k)",
+    "log_convention": "must be recorded per run (natural or bit length)",
+    "source": null,
+    "proof_status": "exploratory_parametric",
+    "runnable": true
+  }
+}
